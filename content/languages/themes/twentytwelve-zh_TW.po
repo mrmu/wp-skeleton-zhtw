@@ -1,0 +1,307 @@
+# Translation of Twenty Twelve in Chinese (Taiwan)
+# This file is distributed under the same license as the Twenty Twelve package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-07-11 01:55:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Twenty Twelve\n"
+
+msgid "http://wordpress.org/themes/twentytwelve"
+msgstr "http://wordpress.org/themes/twentytwelve"
+
+#: functions.php:353
+msgid "Reply"
+msgstr "回覆"
+
+#: image.php:26
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">發表於 </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span>，原始尺寸 <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a>，藝廊 <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>。"
+
+msgid "The 2012 theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background."
+msgstr "WordPress 2012 主題是一款完整的自適應主題，不管在任何裝置上的顯示效果都很棒。特色包括一個有獨立模組小工具的首頁模版，可顯示一款自選字體，索引和單篇頁面模式下的文章格式樣式設定，可選的無邊欄頁面模版等。添加自定選單、頁首圖片和背景圖片，它就專屬於你。"
+
+#: functions.php:101
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "開啟"
+
+#: functions.php:107
+msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
+msgid "no-subset"
+msgstr "沒有子集"
+
+#: functions.php:246
+msgid "Appears on posts and pages except the optional Front Page template, which has its own widgets"
+msgstr "顯示在文章和靜態頁面上，但不在可選的首頁模版上顯示。首頁模版有它自己的模組小工具。"
+
+#: functions.php:254
+msgid "First Front Page Widget Area"
+msgstr "第一首頁模組小工具區"
+
+#: functions.php:256 functions.php:266
+msgid "Appears when using the optional Front Page template with a page set as Static Front Page"
+msgstr "當使用可選的首頁模版建立靜態頁面並設定為靜態首頁時顯示"
+
+#: functions.php:264
+msgid "Second Front Page Widget Area"
+msgstr "第二首頁模組小工具區"
+
+#: functions.php:396
+msgid "This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "分類：%1$s | 標籤：%2$s | 日期：%3$s<span class=\"by-author\"> | 作者：%4$s</span>"
+
+#: functions.php:398
+msgid "This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "分類：%1$s | 日期：%3$s<span class=\"by-author\"> | 作者：%4$s</span>"
+
+#: functions.php:400
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "日期：%3$s<span class=\"by-author\"> | 作者：%4$s</span>"
+
+#: single.php:21
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: single.php:22
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+msgid "Front Page Template"
+msgstr "首頁模版"
+
+msgid "Full-width Page Template, No Sidebar"
+msgstr "全寬頁面模版，無邊欄"
+
+#: content.php:16
+msgid "Featured post"
+msgstr "特色文章"
+
+#: functions.php:215
+msgid "Page %s"
+msgstr "第 %s 頁"
+
+#: content-link.php:12
+msgid "Link"
+msgstr "鏈結"
+
+#: content-aside.php:23 content-image.php:23 content-link.php:21
+#: content-quote.php:20 content-status.php:37 content.php:30
+msgid "% Replies"
+msgstr "% 則評論"
+
+#: content-aside.php:23 content-image.php:23 content-link.php:21
+#: content-quote.php:20 content-status.php:37 content.php:30
+msgid "1 Reply"
+msgstr "1 則評論"
+
+#: 404.php:21
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "沒有找到你要的內容。也許你可以搜尋一下看看。"
+
+#: content-none.php:17 index.php:53
+msgid "Apologies, but no results were found. Perhaps searching will help find a related post."
+msgstr "抱歉，沒有找到該內容。你可以嘗試搜尋來查詢相關文章。"
+
+#: functions.php:332
+msgid "Post author"
+msgstr "文章作者"
+
+#: functions.php:317
+msgid "(Edit)"
+msgstr "（編輯）"
+
+#: header.php:43
+msgid "Menu"
+msgstr "選單"
+
+#: header.php:44
+msgid "Skip to content"
+msgstr "跳至內容區"
+
+#: index.php:38
+msgid "No posts to display"
+msgstr "沒有文章可顯示"
+
+#: index.php:42
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "準備好發表你的第一篇文章了嗎？ <a href=\"%s\">現在開始</a>。"
+
+#: functions.php:390
+msgid "View all posts by %s"
+msgstr "觀看 %s 的所有文章"
+
+#: image.php:41
+msgid "&larr; Previous"
+msgstr "&larr; 上一篇"
+
+#: image.php:42
+msgid "Next &rarr;"
+msgstr "下一篇 &rarr;"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "關於 <strong>%s</strong> 的搜尋結果"
+
+#: search.php:38
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "抱歉，沒有找到符合你要求的搜尋結果。請使用別的關鍵字重新搜尋。"
+
+#: archive.php:35
+msgid "Archives"
+msgstr "文章存檔"
+
+msgid "Twenty Twelve"
+msgstr "貳零壹貳"
+
+msgid "the WordPress team"
+msgstr "WordPress 團隊"
+
+#: functions.php:344
+msgid "Your comment is awaiting moderation."
+msgstr "你的評論正在等候審核。"
+
+#: functions.php:338
+msgid "%1$s at %2$s"
+msgstr "%1$s 於 %2$s"
+
+#: content-aside.php:20 content-link.php:18 content-quote.php:17
+#: content-status.php:15
+msgid "Permalink to %s"
+msgstr "固定鏈結到 %s"
+
+#: functions.php:244
+msgid "Main Sidebar"
+msgstr "主要側邊欄"
+
+#: functions.php:288 single.php:20
+msgid "Post navigation"
+msgstr "文章導航列"
+
+#: functions.php:289
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> 較早文章"
+
+#: functions.php:290
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "較新文章 <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:317
+msgid "Pingback:"
+msgstr "引用通告："
+
+#: functions.php:64
+msgid "Primary Menu"
+msgstr "主選單"
+
+#: footer.php:16
+msgid "Proudly powered by %s"
+msgstr "自豪的採用 %s </a> 與 <a href=\"http://wordpress.org/extend/themes/twentytwelve\">貳零壹貳主題</a>"
+
+#: content-aside.php:26 content-image.php:26 content-link.php:24
+#: content-page.php:24 content-quote.php:23 content-status.php:40
+#: content.php:48 functions.php:349 image.php:37
+msgid "Edit"
+msgstr "編輯"
+
+#: comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr "較新評論 &rarr;"
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr "評論功能已關閉。"
+
+#: author.php:63 content.php:59
+msgid "About %s"
+msgstr "關於 %s"
+
+#: comments.php:31
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s 關於 &ldquo;%2$s&rdquo; 的評論"
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+msgid "Yearly Archives: %s"
+msgstr "按年存檔：%s"
+
+#: archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: tag.php:21
+msgid "Tag Archives: %s"
+msgstr "標籤 <strong>%s</strong> 下的所有文章"
+
+#: category.php:21
+msgid "Category Archives: %s"
+msgstr "分類：%s"
+
+#: archive.php:29
+msgid "Daily Archives: %s"
+msgstr "按日存檔：%s"
+
+#: archive.php:31
+msgid "Monthly Archives: %s"
+msgstr "按月存檔：%s"
+
+#: content-aside.php:15 content-image.php:13 content-link.php:14
+#: content-quote.php:13 content-status.php:31 content.php:41
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "繼續閱讀 <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:23 content-image.php:23 content-link.php:21
+#: content-quote.php:20 content-status.php:37 content.php:30
+msgid "Leave a reply"
+msgstr "留言"
+
+#: footer.php:16
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:16
+msgid "Semantic Personal Publishing Platform"
+msgstr "優雅的個人出版平台"
+
+#: content-none.php:13 index.php:49 search.php:34
+msgid "Nothing Found"
+msgstr "找不到任何內容"
+
+#: author.php:32
+msgid "Author Archives: %s"
+msgstr "作者 %s 的所有文章"
+
+#: comments.php:42
+msgid "Comment navigation"
+msgstr "評論導航列"
+
+#: comments.php:43
+msgid "&larr; Older Comments"
+msgstr "&larr; 較早評論"
+
+#: functions.php:376 functions.php:379
+msgid ", "
+msgstr ","
+
+#: content-page.php:21 content.php:42 image.php:102
+msgid "Pages:"
+msgstr "頁面："
+
+#: content.php:63
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "觀看所有 %s 的文章 <span class=\"meta-nav\">&rarr;</span>"
+
+#: 404.php:17
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "這真是有點尷尬。"
