@@ -10,14 +10,14 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 	define( 'DB_NAME', '%%DB_NAME%%' );
 	define( 'DB_USER', '%%DB_USER%%' );
 	define( 'DB_PASSWORD', '%%DB_PASSWORD%%' );
-	define( 'DB_HOST', '%%DB_HOST%%' ); // Probably 'localhost'
+	define( 'DB_HOST', 'localhost' );
 }
 
 // ========================
 // 自訂WP_CONTENT路徑
 // ========================
-define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/content' );
-define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/content' );
+define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/wp-content' );
+define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/wp-content' );
 
 // =========================================================
 // 建立資料表時預設的文字編碼及資料庫對照型態。如果不確定請勿更改。
@@ -29,14 +29,14 @@ define( 'DB_COLLATE', 'utf8_unicode_ci');
 // 認證唯一金鑰設定。
 // Grab these from: https://api.wordpress.org/secret-key/1.1/salt
 // ==============================================================
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define('AUTH_KEY',         'Rl;{Fw|J2JK]d_KkF`F7{X-Gcvh /[GRapT(}8HJ949qLb75K][s|/cG});lP`hu');
+define('SECURE_AUTH_KEY',  '*D/KF;0x S}%}|WKRMJCd{tlg_o.[-h^~W]@o>P[UA!m+c5Vl=+J3smP$Y-r2eiC');
+define('LOGGED_IN_KEY',    'PvO{)3Ry:v+h0#jYxP9((eunE:LG^[Vk`5F#<3V+,U*)O![yPwF [~@e~8,3 |R@');
+define('NONCE_KEY',        'Kxto!-d2K:}L=3tkV8:>XwF>-mX5T@IRcNqDf_[Su/xfKz]b)OsUE$ ia9uyI#3W');
+define('AUTH_SALT',        'PB9K|,- +L]`7qERl[h+W7tBAO--u-R>Lve%]tex57pCX!G^b%fOB<@41r<`L|nB');
+define('SECURE_AUTH_SALT', 'ZuKn@ceD[o&pq^+LAv?B@q)Lcpr>x,kg-]s`.yf~$[94U0 p-h V/9u &y83)|o{');
+define('LOGGED_IN_SALT',   'Ls<dLcokWql-;E>`}W]MxmIG:G:g&]e$+|UNrhG+:qR`4,H%61k(:$lmCu=LY=It');
+define('NONCE_SALT',       'gR.{#MJA->xQ;+P~~}&!-cC0rkxRs%BJM=Ma[_f!.L-m|| TS_!o7>0XtZ#C1x#?');
 
 // ==============================================================
 // WordPress 資料表前綴。
