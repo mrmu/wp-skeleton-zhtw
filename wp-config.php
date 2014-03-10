@@ -7,9 +7,9 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 	include( dirname( __FILE__ ) . '/local-config.php' );
 } else {
 	define( 'WP_LOCAL_DEV', false );
-	define( 'DB_NAME', '%%DB_NAME%%' );
-	define( 'DB_USER', '%%DB_USER%%' );
-	define( 'DB_PASSWORD', '%%DB_PASSWORD%%' );
+	define( 'DB_NAME', '請輸入DB名稱' );
+	define( 'DB_USER', 'root' );
+	define( 'DB_PASSWORD', '請輸入DB密碼' );
 	define( 'DB_HOST', 'localhost' );
 }
 
@@ -17,7 +17,7 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 // 自訂WP_CONTENT路徑
 // ========================
 define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/wp-content' );
-define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/wp-content' );
+define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/請輸入專案目錄名稱/wp-content' );
 
 // =========================================================
 // 建立資料表時預設的文字編碼及資料庫對照型態。如果不確定請勿更改。
